@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Cilantro Lime Chicken & Rice Bowl",
+      "rating": 5,
+      "imageURL" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190522-cilantro-lime-chicken-and-rice-bowl-portrait-046-pf-1-1559073830.jpg?resize=980:*"
+    },
+    {
+      "id": 2,
+      "title": "Shrimp Bowl",
+      "rating": 4,
+      "imageURL" : "https://healthyfitnessmeals.com/wp-content/uploads/2021/06/Shrimp-burrito-bowl-4.jpg"
+    },
+ 
+    {
+      "id": 3,
+      "title": "Classic Cheese Pizza",
+      "rating": 2,
+      "imageURL" : "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2022%2F02%2F15%2Fclassic-cheese-pizza-FT-RECIPE0422.jpg&q=60"
+    }
+  ]

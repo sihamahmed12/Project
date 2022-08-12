@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Journal</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Food Journal</h1>
+    </header>
+    <main>
+
+    <form>
+       <input
+       type='text'
+       id="title"
+       placeholder="What did you eat today?"/>
+       <input 
+       type='text'
+       id="img"
+       placeholder="Upload your food image here"/>
+    <section id="rating-container">
+        <p>How was your meal?:</p>
+        <div id="rating-container">
+            <label for="one">
+                <input
+                type="radio"
+                        name="ratings"
+                        value="1"
+                        id="one"/>
+                1: Whoa, Unsure about it.        
+            </label>
+            <br>
+            <label for="two">
+                <input 
+                type="radio"
+                        name="ratings"
+                        value="2"
+                        id="two"/>
+                2: Meh, not favorite.
+            </label>
+            <br>
+            <label for="three">
+                <input
+                        type="radio"
+                        name="ratings"
+                        value="3"
+                        id="three"/>
+                3: Just Okay. Not a love, not a dislike.
+            </label> 
+            <br> 
+            <label for="four">
+                <input
+                type="radio"
+                name="ratings"
+                value="4"
+                id="four"/>
+                4: Like it!Taste's good.
+            </label>
+            <br>
+            <label for="five">
+                <input
+                type="radio"
+                name="ratings"
+                value="5"
+                id="five"/>
+                5: Love it! Delicious!
+            </label>
+            <br>
+        </div>
+    </section>
+    <button> Add Meal</button>
+    </form>
+
+    <section id="journal-container"></section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
